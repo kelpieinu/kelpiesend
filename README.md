@@ -32,7 +32,11 @@ Original Eth2Phone done by https://eth2phone.github.io/ (4 years ago)
 
 `./kelpie` - to build for erc20 token support.
 
+Upcoming Changes:
+- ERC20 Token Support
+- Fees Adjustment prior to ERC20 token tx sum.
 
+Original Code:
 This repo contains front-end code + smart-contracts. Verification server's code is located in the separate repository - https://github.com/Dobrokhvalov/eth2phone-server
 
 ## License
