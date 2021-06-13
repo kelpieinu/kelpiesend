@@ -30,6 +30,8 @@ Original Eth2Phone done by https://eth2phone.github.io/ (4 years ago)
 
 `./test` - tests for the VerificationProxy Smart Contract
 
+`./kelpie` - to build for erc20 token support.
+
 
 This repo contains front-end code + smart-contracts. Verification server's code is located in the separate repository - https://github.com/Dobrokhvalov/eth2phone-server
 
