@@ -40,4 +40,4 @@ Original Code:
 This repo contains front-end code + smart-contracts. Verification server's code is located in the separate repository - https://github.com/Dobrokhvalov/eth2phone-server
 
 ## License
-MIT Liscense 
+MIT License 
