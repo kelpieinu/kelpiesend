@@ -1,15 +1,8 @@
-# Eth2Phone
-Sending Ether to a phone number with user verification via SMS.
+#KELPIE Send
+Sending Ether / ERC20 TOKEN to a phone number with user verification via SMS.
 
 ## Project Overview
-Sending ether to mobile phone number. Receiver doesn’t even need to have a wallet, but simply needs to open the web app, follow simple steps and receive ether using one of the possible ways.
-
-## Demo
-Play with the demo at https://eth2phone.github.io/ . The demo app supports Ropsten network right now.
-
-## Video: 
-* [Sending demo](https://screencast-o-matic.com/watch/cbQoD1IbCD)
-* [Receiving demo](https://screencast-o-matic.com/watch/cbQoDXIbCp)
+Sending ether / erc20 token to mobile phone number. Receiver doesn’t even need to have a wallet, but simply needs to open the web app, follow simple steps and receive ether using one of the possible ways.
 
 ## Transfer details
 ![Architecture](/Algorithm.png)
@@ -23,7 +16,10 @@ Play with the demo at https://eth2phone.github.io/ . The demo app supports Rops
 
 ## Running on Ropsten
 You should be good to go if you set Metamask to point at the correct network.
-Load https://eth2phone.github.io/ and use the app.
+
+## Credits
+Original Eth2Phone done by https://eth2phone.github.io/ (4 years ago)
+
 
 ## Code structure
 `./src` - all Javascript/React code is located in this folder.
