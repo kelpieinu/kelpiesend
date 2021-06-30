@@ -1,4 +1,6 @@
-pragma solidity ^0.4.11;
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.0;
 
 import './Owned.sol';
 
@@ -33,16 +35,16 @@ contract Pausable is Ownable {
   /**
    * @dev called by the owner to pause, triggers stopped state
    */
-  function pause() onlyOwner whenNotPaused {
+  function pause() public onlyOwner whenNotPaused {
     paused = true;
-    Pause();
+    emit Pause();
   }
 
   /**
    * @dev called by the owner to unpause, returns to normal state
    */
-  function unpause() onlyOwner whenPaused {
+  function unpause() public onlyOwner whenPaused {
     paused = false;
-    Unpause();
+    emit Unpause();
   }
 }
