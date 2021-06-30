@@ -1,4 +1,6 @@
-pragma solidity 0.4.15;
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.0;
 
 /*
  * Ownable
@@ -10,7 +12,7 @@ pragma solidity 0.4.15;
 contract Ownable {
   address public owner;
 
-  function Ownable() {
+  constructor() {
     owner = msg.sender;
   }
 
